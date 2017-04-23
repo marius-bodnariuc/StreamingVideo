@@ -123,7 +123,7 @@ namespace StreamingVideo
         private void PrintCollection<T>(List<T> collection, string startLine)
         {
             Console.WriteLine(startLine);
-            Videos.ForEach(v => Console.WriteLine(v));
+            collection.ForEach(e => Console.WriteLine(e));
             Console.WriteLine("------------------------");
         }
 
